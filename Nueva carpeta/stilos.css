@@ -1,0 +1,71 @@
+#body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFDAB9;
+}
+
+#main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+    filter:grayscale(80%)
+}
+
+#carousel{
+    position: relative; 
+}
+
+.overlay {
+    position:absolute; 
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #000000(240, 234, 204, 0.5);
+    color: #F08080;
+}
+
+
+#text-llamado{
+    color: #000000 !important;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#header{
+    background-color: #F8AD9D;
+    
+}
+#header a{
+    color: #000000;
+    font-family: "Roboto", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#logo{
+    max-height: 80px;
+    max-width: 80px;
+}
+
+#footer{
+    background-color: #F8AD9D;
+}
+
+#carusel{
+    max-height: 80vh;
+    object-fit: cover;
+    filter: sepia(30%);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 500px;
+    
+
+}
+
+#evento-marca{
+    background-color: #F4978E;
+    color: #000000;
+}
+
+#evento-marca img{
+    max-width: 100%;   
+}
